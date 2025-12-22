@@ -181,16 +181,25 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Instagram Post 1 - Apartments */}
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
-              <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border hover:border-primary transition-all">
+              <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border">
                 <img 
-                  src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=400&h=400&fit=crop"
+                  src="@assets/stock_images/insta_1.jpg"
                   alt="Beautiful modern apartment"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                  <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-center">
-                    <p className="font-bold text-lg">Beautiful Apartments</p>
-                    <p className="text-sm">Check out our latest listings</p>
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="text-white text-center space-y-4">
+                    <div className="flex items-center justify-center gap-6 text-xl">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        <span className="font-bold">2.4K</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <span className="font-bold">342</span>
+                      </div>
+                    </div>
+                    <p className="font-semibold">Beautiful Apartments</p>
                   </div>
                 </div>
               </div>
@@ -198,16 +207,25 @@ export default function Home() {
 
             {/* Instagram Post 2 - Student Items */}
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
-              <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border hover:border-primary transition-all">
+              <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border">
                 <img 
-                  src="https://images.unsplash.com/photo-1588872657840-218e412ee5ff?w=400&h=400&fit=crop"
+                  src="@assets/stock_images/insta_2.jpg"
                   alt="Student items and accessories"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                  <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-center">
-                    <p className="font-bold text-lg">Student Essentials</p>
-                    <p className="text-sm">Great deals on laptops & books</p>
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="text-white text-center space-y-4">
+                    <div className="flex items-center justify-center gap-6 text-xl">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        <span className="font-bold">3.1K</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <span className="font-bold">567</span>
+                      </div>
+                    </div>
+                    <p className="font-semibold">Student Essentials</p>
                   </div>
                 </div>
               </div>
@@ -215,16 +233,25 @@ export default function Home() {
 
             {/* Instagram Post 3 - Hostels */}
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
-              <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border hover:border-primary transition-all">
+              <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border">
                 <img 
-                  src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=400&fit=crop"
+                  src="@assets/stock_images/insta_3.jpg"
                   alt="Comfortable hostel accommodation"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                  <div className="text-white opacity-0 group-hover:opacity-100 transition-opacity text-center">
-                    <p className="font-bold text-lg">Comfy Hostels</p>
-                    <p className="text-sm">Find your perfect room</p>
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  <div className="text-white text-center space-y-4">
+                    <div className="flex items-center justify-center gap-6 text-xl">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        <span className="font-bold">1.8K</span>
+                      </div>
+                      <div className="flex items-center gap-2">
+                        <svg className="w-6 h-6 fill-white" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        <span className="font-bold">298</span>
+                      </div>
+                    </div>
+                    <p className="font-semibold">Comfy Hostels</p>
                   </div>
                 </div>
               </div>
