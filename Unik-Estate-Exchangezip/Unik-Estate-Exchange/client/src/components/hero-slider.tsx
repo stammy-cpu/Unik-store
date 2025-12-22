@@ -6,9 +6,9 @@ import { ArrowRight } from "lucide-react"
 import { Link } from "wouter"
 import { motion } from "framer-motion"
 
-import realEstateImg from "@assets/stock_images/modern_luxury_apartm_419233ff.jpg"
-import hostelImg from "@assets/stock_images/modern_student_hoste_20618d52.jpg"
-import studentItemsImg from "@assets/stock_images/student_essentials_l_e2ec2f99.jpg"
+import realEstateImg from "@assets/stock_images/real_estate_hero.jpg"
+import hostelImg from "@assets/stock_images/hostel_hero.jpg"
+import studentItemsImg from "@assets/stock_images/student_items_hero.jpg"
 
 const SLIDES = [
   {
