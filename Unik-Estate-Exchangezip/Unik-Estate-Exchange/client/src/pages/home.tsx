@@ -5,6 +5,9 @@ import { listings } from "@/lib/data";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { ArrowRight, Building2, GraduationCap, Home as HomeIcon, CheckCircle2, MessageSquare, Plus } from "lucide-react";
+import instaPost1 from "@assets/stock_images/insta_1.jpg";
+import instaPost2 from "@assets/stock_images/insta_2.jpg";
+import instaPost3 from "@assets/stock_images/insta_3.jpg";
 
 export default function Home() {
   const featuredListings = listings.filter(l => l.isFeatured);
@@ -183,7 +186,7 @@ export default function Home() {
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
               <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border">
                 <img 
-                  src="@assets/stock_images/insta_1.jpg"
+                  src={instaPost1}
                   alt="Beautiful modern apartment"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -209,7 +212,7 @@ export default function Home() {
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
               <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border">
                 <img 
-                  src="@assets/stock_images/insta_2.jpg"
+                  src={instaPost2}
                   alt="Student items and accessories"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
@@ -235,7 +238,7 @@ export default function Home() {
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="group cursor-pointer">
               <div className="relative aspect-square rounded-lg overflow-hidden bg-secondary border">
                 <img 
-                  src="@assets/stock_images/insta_3.jpg"
+                  src={instaPost3}
                   alt="Comfortable hostel accommodation"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
