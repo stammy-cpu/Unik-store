@@ -12,9 +12,13 @@ export interface Listing {
 }
 
 // Use quality stock images for each content type
-import realEstateImg from "@assets/stock_images/modern_luxury_apartm_419233ff.jpg"
-import hostelImg from "@assets/stock_images/modern_student_hoste_20618d52.jpg"
-import studentItemsImg from "@assets/stock_images/student_essentials_l_e2ec2f99.jpg"
+import realEstateImg from "@assets/stock_images/real_estate_hero.jpg"
+import hostelImg from "@assets/stock_images/hostel_hero.jpg"
+import studentItemsImg from "@assets/stock_images/student_items_hero.jpg"
+import apartment2Img from "@assets/stock_images/apartment_2.jpg"
+import laptopImg from "@assets/stock_images/laptop.jpg"
+import booksImg from "@assets/stock_images/books.jpg"
+import hostel2Img from "@assets/stock_images/hostel_2.jpg"
 
 export const listings: Listing[] = [
   {
@@ -34,7 +38,7 @@ export const listings: Listing[] = [
     category: "Student Item",
     price: "₦180,000",
     location: "OAU Campus, Maintenance",
-    image: studentItemsImg,
+    image: laptopImg,
     description: "Barely used HP laptop, excellent working condition. Includes original charger. Great for studies and light work.",
     condition: "New",
     isFeatured: true
@@ -45,7 +49,7 @@ export const listings: Listing[] = [
     category: "Hostel",
     price: "₦45,000/sem",
     location: "OAU Campus Gate, 5 min walk",
-    image: hostelImg,
+    image: hostel2Img,
     description: "Comfortable shared rooms with high-speed WiFi, study halls, and meal facilities. Safe and student-friendly environment.",
     features: ["WiFi Included", "Meal Plan Available", "Laundry Service", "Study Hall", "24/7 Security"],
     isFeatured: true
@@ -66,7 +70,7 @@ export const listings: Listing[] = [
     category: "Student Item",
     price: "₦8,000",
     location: "OAU Library Vicinity",
-    image: studentItemsImg,
+    image: booksImg,
     description: "Complete set of engineering reference books. In good condition, covers multiple courses.",
     condition: "Used",
     isFeatured: false
@@ -77,7 +81,7 @@ export const listings: Listing[] = [
     category: "Land",
     price: "₦1,500,000",
     location: "Ile-Ife Outskirts",
-    image: realEstateImg,
+    image: apartment2Img,
     description: "Spacious land suitable for building. Good soil, accessible road, water available nearby.",
     isFeatured: true
   }
